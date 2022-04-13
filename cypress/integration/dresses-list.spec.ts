@@ -18,8 +18,10 @@ describe("the user navigates to the dresses page should", () => {
       "Printed Summer Dress",
       "Printed Chiffon Dress",
     ];
+
     menuContentPage.visitMenuContentPage();
     menuContentPage.goToDressesMenu();
+
     dressesListPage.validateItemsNumber(dressesNumer);
     dressesListPage.validateItemsNames(dressesNames);
   });
