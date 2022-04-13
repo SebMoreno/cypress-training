@@ -22,5 +22,15 @@ module.exports = {
     "cypress/no-unnecessary-waiting": "error",
     "cypress/assertion-before-screenshot": "warn",
     "cypress/no-force": "warn",
+    "import/prefer-default-export": "off",
+    "import/extensions": "off",
+    "lines-between-class-members": "off",
+  },
+  settings: {
+    "import/resolver": {
+      node: {
+        extensions: [".js", ".jsx", ".ts", ".tsx"],
+      },
+    },
   },
 };
