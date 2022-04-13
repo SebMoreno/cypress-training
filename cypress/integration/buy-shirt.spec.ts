@@ -6,7 +6,7 @@ import {
   ProductsListPage,
   ShippingStepPage,
   ShopingCartPage,
-} from "../page";
+} from "../page/index";
 
 const menuContentPage = new MenuContentPage();
 const productsListPage = new ProductsListPage();
