@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test:open": "npm run lint && cypress open",
-    "lint": "eslint ./cypress/integration/**/*.ts",
+    "lint": "eslint ./cypress/integration/**/*.ts ./cypress/page/**/*.ts",
     "lint:fix": "npm run lint -- --fix"
 },
   "repository": {
